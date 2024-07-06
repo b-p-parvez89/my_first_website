@@ -1,0 +1,204 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+#sign_in_block{
+    height: 70vh;
+    width: 100vw;
+   
+    background-image: linear-gradient(to right, rgb(38, 38, 192),rgb(81, 110, 240), rgb(38, 150, 241));
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+  
+    margin-right: 60px;
+    font-size: 17px;
+
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+#get_button{
+    background-color: #fff;
+    color: #000;
+    padding: 7px 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#get_button:hover{
+    color: white;
+    background-color: #000;
+    border: 1px solid white;
+}
+
+#section{
+    display: inline block;
+    padding:0px 40px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+#left_section{
+    float: left;
+    width: 50%;
+    text-align: left;
+    
+}
+
+#left_section h1{
+    font-family:monospace;
+    font-size: 40px;
+    
+}
+
+#left_section p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+}
+
+#right_section{
+    float: left;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+   
+   
+    
+}
+.sizedbox{
+    width: 200px;
+
+}
+#right_section #sign_up_section{
+   height: 350px;
+   width: 335px;
+  margin-top: 10px;
+   background-color: #fff;
+   align-content: center;
+   border-radius: 20px;
+   align-self:center;
+ 
+
+}
+#sign_up_section h3{
+    font-size: 28px;
+    color: #000;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+#sign_up_section input{
+    font-size: 14px;
+    padding: 4px;
+
+}
+fieldset{
+    display: block;
+    padding-left:5px ; 
+    width: 200px;
+    text-align: start; 
+}
+label{
+    display: block;
+    padding-bottom: 10px;  
+    font-size: 16px;
+    font-weight: bold;
+}
+form{
+    padding-left: 10px;
+    padding: 10px;
+}
+
+
+.registestion_button{
+    height:40px;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    border:1px solid white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.registestion_button:hover{
+    background-color: white;
+    color: blue;
+    border:1px solid blue;
+}
+
+.fuature{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: bolder;
+}
+.fuature:hover{
+    color: blue;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+ 
+  }
+  .wrapper .item{
+   margin: 10px;
+    text-align: center;
+    padding: 16px;
+  }
+.wrapper .title{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+}
+.wrapper p{
+    font-size: 14px;
+}
+.wrapper .item:hover{
+background-color: rgba(0, 0, 255, 0.212);
+color: blue;
+border-radius: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    height: 200px;
+    color: #fff;
+    padding-top:10px ;
+}
+footer p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+footer .icon i{
+    padding: 10px;
+    margin-top: 10px;
+}
